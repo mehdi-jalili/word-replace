@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-02-05 13:15+0330\n"
+"PO-Revision-Date: 2025-02-05 16:07+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+#: assets/admin/pages/w_replace_add_word_content.php:2
+#: assets/admin/pages/w_replace_mainpage_content.php:7
+#: assets/admin/template-parts/w_replace_new_rule_form.php:96
+#: inc/w_replace_reg_script.php:18
+msgid "Add New Rule"
+msgstr "إضافة قاعدة جديدة"
+
+#: assets/admin/pages/w_replace_add_word_content.php:3
+msgid ""
+"The real-time masking find and replace rules will be applied prior to the "
+"website being rendered in the browser."
+msgstr ""
+"سيتم تطبيق قواعد البحث والاستبدال في الوقت الفعلي قبل عرض الموقع في المتصفح."
+
+#. Plugin Name of the plugin/theme
+#: assets/admin/pages/w_replace_mainpage_content.php:4 inc/w_replace_menu.php:7
+#: inc/w_replace_menu.php:8
+msgid "Word Replace"
+msgstr "استبدال الكلمات"
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:5
+msgid "Are You Sure?"
+msgstr "هل أنت متأكد؟"
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:16
+#: inc/w_replace_reg_script.php:23
+msgid "Delete"
+msgstr "حذف"
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:24
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: assets/admin/template-parts/w_replace_error_notice.php:2
+msgid "There was an error with the operation."
+msgstr "حدث خطأ في العملية."
+
+#: assets/admin/template-parts/w_replace_main_table.php:6
+#: assets/admin/template-parts/w_replace_main_table.php:111
+msgid "Targeted word"
+msgstr "الكلمة المستهدفة"
+
+#: assets/admin/template-parts/w_replace_main_table.php:9
+#: assets/admin/template-parts/w_replace_main_table.php:114
+msgid "Replace With"
+msgstr "استبدال بـ"
+
+#: assets/admin/template-parts/w_replace_main_table.php:12
+#: assets/admin/template-parts/w_replace_main_table.php:117
+msgid "Where"
+msgstr "أين"
+
+#: assets/admin/template-parts/w_replace_main_table.php:15
+#: assets/admin/template-parts/w_replace_main_table.php:120
+msgid "Page Name"
+msgstr "اسم الصفحة"
+
+#: assets/admin/template-parts/w_replace_main_table.php:18
+#: assets/admin/template-parts/w_replace_main_table.php:123
+msgid "Post Name"
+msgstr "اسم المنشور"
+
+#: assets/admin/template-parts/w_replace_main_table.php:21
+#: assets/admin/template-parts/w_replace_main_table.php:126
+msgid "Action"
+msgstr "الإجراء"
+
+#: assets/admin/template-parts/w_replace_main_table.php:42
+msgid "No records found"
+msgstr "لم يتم العثور على سجلات"
+
+#: assets/admin/template-parts/w_replace_main_table.php:96
+msgid "Remove"
+msgstr "إزالة"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:12
+msgid "Text"
+msgstr "النص"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:14
+msgid "Enter the target Word. Example: Hello World"
+msgstr "أدخل الكلمة المستهدفة. مثال: Hello World"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:23
+msgid "Replace with"
+msgstr "استبدال بـ"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:25
+msgid "Enter the text you want to Replace. Example: Hi World"
+msgstr "أدخل النص الذي تريد استبداله. مثال: Hi World"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:33
+msgid "Where To Replace"
+msgstr "مكان الاستبدال"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:37
+msgid "All over the website"
+msgstr "في جميع أنحاء الموقع"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:38
+msgid "Page"
+msgstr "الصفحة"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:39
+msgid "Post"
+msgstr "المنشور"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:44
+msgid "Select a Page"
+msgstr "اختر صفحة"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:46
+#: assets/admin/template-parts/w_replace_new_rule_form.php:71
+msgid "All"
+msgstr "الكل"
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:69
+msgid "Select a Post"
+msgstr "اختر منشورًا"
+
+#: assets/admin/template-parts/w_replace_success_notice.php:2
+msgid "Operation completed successfully."
+msgstr "تم إكمال العملية بنجاح."
+
+#: inc/w_replace_menu.php:17 inc/w_replace_menu.php:18
+msgid "Add"
+msgstr "إضافة"
+
+#: inc/w_replace_reg_script.php:19
+msgid "Please Fill All the Fields"
+msgstr "يرجى ملء جميع الحقول"
+
+#: inc/w_replace_reg_script.php:20
+msgid "Rule Has Been Added"
+msgstr "تمت إضافة القاعدة"
+
+#: inc/w_replace_reg_script.php:21
+msgid "Repeated word detected"
+msgstr "تم اكتشاف كلمة مكررة"
+
+#: inc/w_replace_reg_script.php:22
+msgid "Error occurred"
+msgstr "حدث خطأ"
+
+#: inc/w_replace_reg_script.php:24
+msgid "Rule has been deleted"
+msgstr "تم حذف القاعدة"
+
+#: inc/w_replace_reg_script.php:25
+msgid "Error: Delete was not successful"
+msgstr "خطأ: لم تنجح عملية الحذف"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/word-replace/"
+msgstr "https://github.com/mehdi-jalili/word-replace/"
+
+#. Description of the plugin/theme
+msgid "Easily Replace all the text you want in real-time."
+msgstr "استبدل بسهولة كل النصوص التي تريدها في الوقت الفعلي."
+
+#. Author of the plugin/theme
+msgid "Mehdi Jalili"
+msgstr "مهدی جلیلی"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/"
+msgstr "https://github.com/mehdi-jalili/"
