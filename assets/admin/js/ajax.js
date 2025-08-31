@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
                 if (response.data === 'repeat') {
                     $('#notice-container').html('<div class="notice notice-error is-dismissible"><p>Repeated word detected</p></div>');
                 } else {
-                    $('#notice-container').html('<div class="notice notice-error is-dismissible"><p>ERROR: </p></div>');
+                    $('#notice-container').html('<div class="notice notice-error is-dismissible"><p>ERROR: failed to get response</p></div>');
                 }
             }
             $btn.html('Add New Rule');

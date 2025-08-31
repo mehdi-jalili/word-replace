@@ -11,15 +11,13 @@ class w_replace_models
     public function check_table() {
         global $wpdb;
         $table_name = $wpdb->prefix . 'w_replace_rules';
-        $cache_key = 'w_replace_db_exists';
-        $table_exists = wp_cache_get( $cache_key );
-        
-        if ( false === $table_exists ) {
 
-            $table_exists = $wpdb->get_results( $wpdb->prepare( "SHOW TABLES LIKE %s", $wpdb->esc_like( $table_name ) ) );
-            
-            wp_cache_set( $cache_key, $table_exists );
+        $table_exists = $wpdb->get_var(
+            $wpdb->prepare("SHOW TABLES LIKE %s", $wpdb->esc_like($this->table_name))
+        ) === $table_name;
         
+        if (!$table_exists) {
+            $this->create_table();
         }
     }
 
