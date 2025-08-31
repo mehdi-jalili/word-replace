@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Word Replace
- * Version: 0.6.0
+ * Version: 0.7.0
  * Plugin URI:  https://github.com/mehdi-jalili/word-replace/
  * Description: Easily Replace all the text you want in real-time.
  * Author: Mehdi Jalili
  * Author URI: https://github.com/mehdi-jalili/
  * Requires at least: 6.4
- * Tested up to: 6.6
+ * Tested up to: 6.8
  * Requires PHP: 7.4
  * Text Domain: word-replace
  * Domain Path: /languages

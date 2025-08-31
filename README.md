@@ -63,6 +63,10 @@ or any other content within your website without touching the database, with the
 
 == Changelog ==
 
+= Version: 0.7 (August 31, 2025) =
+* WordPress V 6.8 compatibility.
+* DB logic updated.
+
 = Version: 0.6 (February 11, 2025) =
 * bug fixed.
 
