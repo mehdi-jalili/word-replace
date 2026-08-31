@@ -1,0 +1,189 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Word Replace\n"
+"POT-Creation-Date: 2025-02-05 13:15+0330\n"
+"PO-Revision-Date: 2025-02-05 13:14+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: word-replace.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/admin/pages/w_replace_add_word_content.php:2
+#: assets/admin/pages/w_replace_mainpage_content.php:7
+#: assets/admin/template-parts/w_replace_new_rule_form.php:96
+#: inc/w_replace_reg_script.php:18
+msgid "Add New Rule"
+msgstr ""
+
+#: assets/admin/pages/w_replace_add_word_content.php:3
+msgid ""
+"The real-time masking find and replace rules will be applied prior to the "
+"website being rendered in the browser."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: assets/admin/pages/w_replace_mainpage_content.php:4 inc/w_replace_menu.php:7
+#: inc/w_replace_menu.php:8
+msgid "Word Replace"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:5
+msgid "Are You Sure?"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:16
+#: inc/w_replace_reg_script.php:23
+msgid "Delete"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_delete_modal.php:24
+msgid "Cancel"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_error_notice.php:2
+msgid "There was an error with the operation."
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:6
+#: assets/admin/template-parts/w_replace_main_table.php:111
+msgid "Targeted word"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:9
+#: assets/admin/template-parts/w_replace_main_table.php:114
+msgid "Replace With"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:12
+#: assets/admin/template-parts/w_replace_main_table.php:117
+msgid "Where"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:15
+#: assets/admin/template-parts/w_replace_main_table.php:120
+msgid "Page Name"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:18
+#: assets/admin/template-parts/w_replace_main_table.php:123
+msgid "Post Name"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:21
+#: assets/admin/template-parts/w_replace_main_table.php:126
+msgid "Action"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:42
+msgid "No records found"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_main_table.php:96
+msgid "Remove"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:12
+msgid "Text"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:14
+msgid "Enter the target Word. Example: Hello World"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:23
+msgid "Replace with"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:25
+msgid "Enter the text you want to Replace. Example: Hi World"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:33
+msgid "Where To Replace"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:37
+msgid "All over the website"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:38
+msgid "Page"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:39
+msgid "Post"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:44
+msgid "Select a Page"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:46
+#: assets/admin/template-parts/w_replace_new_rule_form.php:71
+msgid "All"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_new_rule_form.php:69
+msgid "Select a Post"
+msgstr ""
+
+#: assets/admin/template-parts/w_replace_success_notice.php:2
+msgid "Operation completed successfully."
+msgstr ""
+
+#: inc/w_replace_menu.php:17 inc/w_replace_menu.php:18
+msgid "Add"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:19
+msgid "Please Fill All the Fields"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:20
+msgid "Rule Has Been Added"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:21
+msgid "Repeated word detected"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:22
+msgid "Error occurred"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:24
+msgid "Rule has been deleted"
+msgstr ""
+
+#: inc/w_replace_reg_script.php:25
+msgid "Error: Delete was not successful"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/word-replace/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily Replace all the text you want in real-time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mehdi Jalili"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/"
+msgstr ""
