@@ -63,6 +63,10 @@ or any other content within your website without touching the database, with the
 
 == Changelog ==
 
+= Version: 0.9.1 (September 01, 2026) =
+* page & post bug fixed.
+* logic updated.
+
 = Version: 0.9 (August 21, 2026) =
 * performance improvement
 * bug fixed.
