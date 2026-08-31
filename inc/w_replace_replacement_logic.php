@@ -92,8 +92,7 @@ class w_replace_replacement_logic {
     }
 
     private function should_apply_page_rule($rule): bool {
-        // page_id خالی یعنی کاربر گزینه‌ی «All» (همه‌ی صفحات) را انتخاب کرده.
-        // در این حالت باید روی همه‌ی صفحات اعمال شود، نه فقط یک صفحه‌ی خاص.
+
         if (empty($rule->page_id)) {
             $isWooPage = function_exists('is_woocommerce') && is_woocommerce();
             return is_page() || $isWooPage;
@@ -107,7 +106,6 @@ class w_replace_replacement_logic {
             return false;
         }
 
-        // post_id خالی یعنی کاربر گزینه‌ی «All» (همه‌ی پست‌ها) را انتخاب کرده.
         if (empty($rule->post_id)) {
             return true;
         }
@@ -190,13 +188,7 @@ class w_replace_replacement_logic {
     }
 
     public function w_replace_init() {
-        // template_redirect runs after the main query has been parsed, so
-        // conditional tags (is_page, is_single, is_shop, is_product, ...)
-        // are reliable here for both regular WordPress pages and
-        // WooCommerce pages. Hooking earlier (e.g. woocommerce_init, which
-        // fires on 'init' before the query is resolved) would cause
-        // should_apply_replacements() to cache a false negative that then
-        // sticks for the rest of the request.
+
         add_action('template_redirect', [$this, 'apply_Logic'], 1);
         
         add_action('shutdown', function() {
